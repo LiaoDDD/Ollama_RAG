@@ -1,1 +1,2 @@
-# llm_api_practise
+# Ollama RAG
+hi
