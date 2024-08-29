@@ -13,12 +13,12 @@ First you will have to download the ollama for using the LLM.
 
 After Download Ollama,choose the LLM you want and pull.
 
-```bash
+```zsh
 ollama pull llama3
 ```
 
 Now you can run the LLM that you pull.
-```bash
+```zsh
 ollama run llama3
 ```
 ### Create virtual environment
@@ -30,8 +30,25 @@ cd Documents
 ```
 
 Create a new file for virtual environment and get into the file.
-```bash
-mkdir RAG
-cd RAG
+```zsh
+mkdir llama_RAG
+cd llama_RAG
 ```
+
+Now you can setting up the environment,we will use 'RAG' for example to be our environment name.
+```zsh
+python -m venv RAG
+```
+### Activating/Deactivating environment
+
+To activate the environment __you will have to do this for every new terminal session.__
+```zsh
+source RAG/bin/activate
+```
+To deactivate:
+```zsh
+deactivate
+```
+
+
 
