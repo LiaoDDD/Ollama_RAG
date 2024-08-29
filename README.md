@@ -1,6 +1,8 @@
-# Ollama RAG
-To implement RAG locally by using Ollma and vector database.
-
+# PDF RAG
+This project is to implement LLM PDF RAG __locally__ .
+Set up API by using Ollama,LangChain,ChromaDB,and Flask.
+Uplaod the PDF file by API,and integrate with the LLM to complete Retrieval Augemented Generation.
+At the end of the project we look forward to complete system as a Rest API for uploading PDF documents and asking questions againsts the document.
 ## Workspace
 
 ### Download Ollama
