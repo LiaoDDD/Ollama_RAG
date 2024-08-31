@@ -52,5 +52,22 @@ To deactivate:
 deactivate
 ```
 
+## Implement API
+
+After finished set up workspace,now we could start to implement the API.
+
+### Start server
+Running a Flask application to start built-in development server.The server will using for listening on a specified port and waiting to handle requests.
+```zsh 
+python rag.py
+```
+### POSTMAN
+In this project we will use __Postman__ for testing and debugging API that we create.
+
+You can download it first
+[Postman](https://www.postman.com/downloads/)
+Or you can just used on wed
+[Postman_Web](https://www.postman.com/)
+
 
 
