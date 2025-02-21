@@ -54,7 +54,7 @@ deactivate
 
 ## Implement API
 
-After finished set up workspace,now we could start to implement the API.
+After finished set up workspace,now we could start to implement the API.This project API is build by Flask,so you can develop on web without using other ASGI.
 
 ### Start server
 Running a Flask application to start built-in development server.The server will using for listening on a specified port and waiting to handle requests.
@@ -68,6 +68,9 @@ You can download it first
 [Postman](https://www.postman.com/downloads/)
 Or you can just used on wed
 [Postman_Web](https://www.postman.com/)
+
+## VectorDatabase
+The project used __Chroma__ as vectordatabase for LLM to RAG.You can use any vectordatabase you want like Milvus.
 
 
 
